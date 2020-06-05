@@ -1,0 +1,10 @@
+list1 = []
+
+for i in range(5):
+  list1.append(int(input ("enter no.")))
+
+
+for x in list1:
+  if x >0:
+    print(x,end=" ")
+
