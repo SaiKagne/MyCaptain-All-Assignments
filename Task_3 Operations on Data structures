@@ -1,0 +1,33 @@
+# Assigning elements to list
+
+batsman = ["Gautam","Dravid","D Karthik","Sehwag"]
+print(batsman)
+
+batsman.append("Virat")
+print(batsman)
+
+print(batsman[0])
+print(batsman[0:2])
+
+
+# Accessing elements of tuple
+
+bowler = ("Zaheer","Ashwin","Harbhajan","Kuldeep")
+print(bowler)
+
+print(bowler[2])
+print(len(bowler))
+
+
+# Deleting elements from dictionary
+
+roles ={"Jadeja":"All-rounder","Sachin":"Opener","Yuvraj":"Middle-order"}
+print(roles)
+
+roles["Dhoni"]= "Captain"
+print(roles)
+
+del roles["Sachin"]
+print(roles)
+
+
